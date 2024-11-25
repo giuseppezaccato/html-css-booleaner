@@ -4,30 +4,56 @@
     box-sizing: border-box;
 }
 
-/* bonus .container {
+/* .container {
     width: 75%;
     margin: 0 auto;
 } */
 
 .hero {
     background-image: url(../img/pattern.png);
-    height: 200px;
+    height: 20vh;
     width: 100%;
-    background-color: rgb(26, 110, 158);
+    background-color: #4EA0FF;
     background-repeat: repeat-x;
     background-size: contain;
     position: relative;
 }
 
-img {
-    width: 30%;
+.signature {
+    color: #B1E5F2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+#logo {
+    width: 20%;
     position: absolute;
     bottom: 0;
     left: 0;
-
 }
 
-#logo {}
+ul {
+    margin-left: 1%;
+}
+
+.subtitle {
+    color: lightgray;
+}
+
+.picture {
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+}
+
+footer div:first-child {
+    background: url(../img/graph.jpg);
+}
+
+footer div:last-child {
+    background: url(../img/monitor.jpg);
+}
 
 
 
