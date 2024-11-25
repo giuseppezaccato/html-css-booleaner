@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+/* bonus .container {
+    width: 75%;
+    margin: 0 auto;
+} */
+
 .hero {
     background-image: url(../img/pattern.png);
     height: 200px;
@@ -11,6 +16,15 @@
     background-color: rgb(26, 110, 158);
     background-repeat: repeat-x;
     background-size: contain;
+    position: relative;
+}
+
+img {
+    width: 30%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
 }
 
 #logo {}
