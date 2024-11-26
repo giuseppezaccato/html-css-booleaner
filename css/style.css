@@ -32,7 +32,8 @@ ul {
 table {
     border-spacing: 0;
     border-collapse: collapse;
-    /* border-spacing: 0; */
+    /* border-spacing: 0; 
+    è errato usare questa caratteristica*/
 }
 
 th {
@@ -68,6 +69,7 @@ thead {
     height: 200px;
     width: 250px;
     margin-bottom: 10px;
+    color: white;
 }
 
 .didascalia {
@@ -90,5 +92,4 @@ thead {
 
 .spacing {
     margin: 2% 0;
-    line-height: 160%;
 }
